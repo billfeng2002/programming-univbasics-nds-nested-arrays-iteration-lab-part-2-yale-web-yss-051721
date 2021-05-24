@@ -5,7 +5,7 @@ def find_min_in_nested_arrays(src)
   for array in src do
     smallest=array[0]
     countloop=0
-    while countloop<array.length do
+    while countloop<array.length
       if(smallest>array[countloop])
         smallest=array[countloop]
       end
